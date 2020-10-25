@@ -1,13 +1,62 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+html {
+	font-size: 62.5%;
+	/*establecer el standard de font size en rem*/
+	box-sizing: border-box;
+	/*manejamos el padding y el margin dentro de los divs*/
+}
+body,
+#root {
+	height: 100vh;
+	margin: 0;
+}
+body,
+input,
+select,
+textarea {
+	/*equivale a 16px*/
+	font-size: 1.6rem;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.grid-container {
+	/*vamos a crear una css grid*/
+	display: grid;
+	grid-template-areas:
+		'header'
+		'main'
+		'footer';
+	grid-template-rows: 5rem 1fr 5rem;
+	grid-template-columns: 1fr;
+	height: 100%;
+}
+a:hover {
+	color: #ff8000;
+}
+header {
+	grid-area: header;
+	background-color: #72ad51;
+	color: #000000;
+	/*alineamos elementos de manera vertical solamente*/
+	display: flex;
+  align-items: center;
+  padding: 0.5rem;
+}
+/*color de los anchor*/
+header a {
+	color: #000000;
+	/*removemos el subrayado de los links*/
+	text-decoration: none;
+}
+main {
+	grid-area: main;
+}
+footer {
+	grid-area: footer;
+	background-color: #72ad51;
+	color: #000000;
+	/*para poner los p en el centro usamos flex*/
+	display: flex;
+	/*vertical y horizontalmente alineados al centro*/
+	justify-content: center;
+	align-items: center;
 }
