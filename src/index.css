@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
 html {
 	font-size: 62.5%;
 	/*establecer el standard de font size en rem*/
@@ -12,10 +14,11 @@ body,
 body,
 input,
 select,
+button,
 textarea {
+	font-family: Montserrat, Arial, Helvetica, sans-serif;
 	/*equivale a 16px*/
 	font-size: 1.6rem;
-	font-family: Arial, Helvetica, sans-serif;
 }
 
 .grid-container {
@@ -29,6 +32,10 @@ textarea {
 	grid-template-columns: 1fr;
 	height: 100%;
 }
+
+a{
+	text-decoration: none;
+}
 a:hover {
 	color: #ff8000;
 }
@@ -38,8 +45,8 @@ header {
 	color: #000000;
 	/*alineamos elementos de manera vertical solamente*/
 	display: flex;
-  align-items: center;
-  padding: 0.5rem;
+	align-items: center;
+	padding: 0.5rem;
 }
 /*color de los anchor*/
 header a {
@@ -60,3 +67,73 @@ footer {
 	justify-content: center;
 	align-items: center;
 }
+.content {
+	display: flex;
+	flex-wrap: wrap;
+}
+.main {
+	flex: 3 60rem;
+}
+.sidebar {
+	flex: 1 20rem;
+}
+/*products styling*/
+.products {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+.products li {
+	flex: 0 1 29rem;
+	height: 47rem;
+	padding: 1rem;
+}
+
+.product {
+	display: flex;
+	/*because we want text and image in seperate lines*/
+	flex-direction: column;
+	justify-content: space-between;
+	height: 100%;
+}
+
+.product img {
+	border: 2px solid #f0c040;
+	max-width: 37rem;
+	max-height: 37rem;
+}
+
+.product-price {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.product-price div,
+.product-price button {	
+	text-align: center;
+	flex: 1;
+}
+.product-price div {
+	font-size: 2rem;
+}
+
+.button{
+	padding: 1rem;
+	border: .1 rem #c0c0c0 solid;
+	background-color: #f0f0f0;
+	cursor:pointer;
+}
+.button:hover{
+	border: 0.1rem #808080 solid;
+}
+
+.button.primary{
+	background-color: #f0c040;
+}
+
+/*59:53*/
+
