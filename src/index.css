@@ -1,10 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 html {
 	font-size: 62.5%;
-	/*establecer el standard de font size en rem*/
 	box-sizing: border-box;
-	/*manejamos el padding y el margin dentro de los divs*/
 }
 body,
 #root {
@@ -16,13 +14,11 @@ input,
 select,
 button,
 textarea {
-	font-family: Montserrat, Arial, Helvetica, sans-serif;
-	/*equivale a 16px*/
+	font-family: Montserrat, Helvetica, Arial, sans-serif;
 	font-size: 1.6rem;
 }
 
 .grid-container {
-	/*vamos a crear una css grid*/
 	display: grid;
 	grid-template-areas:
 		'header'
@@ -32,8 +28,7 @@ textarea {
 	grid-template-columns: 1fr;
 	height: 100%;
 }
-
-a{
+a {
 	text-decoration: none;
 }
 a:hover {
@@ -41,17 +36,15 @@ a:hover {
 }
 header {
 	grid-area: header;
-	background-color: #72ad51;
-	color: #000000;
-	/*alineamos elementos de manera vertical solamente*/
+	background-color: #203040;
+	color: #ffffff;
 	display: flex;
+	justify-content: space-between;
 	align-items: center;
 	padding: 0.5rem;
 }
-/*color de los anchor*/
 header a {
-	color: #000000;
-	/*removemos el subrayado de los links*/
+	color: #ffffff;
 	text-decoration: none;
 }
 main {
@@ -59,14 +52,13 @@ main {
 }
 footer {
 	grid-area: footer;
-	background-color: #72ad51;
-	color: #000000;
-	/*para poner los p en el centro usamos flex*/
+	background-color: #203040;
+	color: #ffffff;
 	display: flex;
-	/*vertical y horizontalmente alineados al centro*/
 	justify-content: center;
 	align-items: center;
 }
+
 .content {
 	display: flex;
 	flex-wrap: wrap;
@@ -77,7 +69,8 @@ footer {
 .sidebar {
 	flex: 1 20rem;
 }
-/*products styling*/
+
+/* products */
 .products {
 	display: flex;
 	flex-wrap: wrap;
@@ -92,48 +85,49 @@ footer {
 	height: 47rem;
 	padding: 1rem;
 }
-
 .product {
 	display: flex;
-	/*because we want text and image in seperate lines*/
 	flex-direction: column;
 	justify-content: space-between;
 	height: 100%;
 }
-
 .product img {
-	border: 2px solid #f0c040;
 	max-width: 37rem;
 	max-height: 37rem;
 }
-
 .product-price {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 }
 .product-price div,
-.product-price button {	
+.product-price button {
 	text-align: center;
 	flex: 1;
 }
 .product-price div {
 	font-size: 2rem;
 }
-
-.button{
+.button {
 	padding: 1rem;
-	border: .1 rem #c0c0c0 solid;
+	border: 0.1rem #c0c0c0 solid;
 	background-color: #f0f0f0;
-	cursor:pointer;
+	cursor: pointer;
 }
-.button:hover{
+.button:hover {
 	border: 0.1rem #808080 solid;
 }
-
-.button.primary{
+.button.primary {
 	background-color: #f0c040;
 }
-
-/*59:53*/
-
+/* Filter */
+.filter {
+	display: flex;
+	justify-content: space-between;
+	padding: 1rem;
+	margin: 1rem;
+	border-bottom: 0.1rem #c0c0c0 solid;
+}
+.filter div {
+	flex: 1;
+}

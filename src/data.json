@@ -1,65 +1,75 @@
 {
-    "products": [
-        {
-            "_id": "product1",
-            "title": "Alcohol Bio-Alcohol x 500ML 96°",
-            "image": "/images/product1.jpg",
-            "description": "Alcohol de graduacion 96° , apto para diluir y utilizar para desinfectar",
-            "availableSizes": [
-                "accesorios"
-            ],
-            "price": 130
-        },
-        {
-            "_id": "product2",
-            "image": "/images/product2.jpg",
-            "title": "Alcohol MF x 500ML 70°",
-            "description": "Listo para desinfectar, máximo protección contra virus y bacterias",
-            "availableSizes": [
-                "accesorios"
+  "products": [
+      {
+          "_id": "product1",
+          "title": "Alcohol Bio-Alcohol x 500ML 96°",
+          "image": "/images/product1.jpg",
+          "description": "Alcohol de graduacion 96° , apto para diluir y utilizar para desinfectar",
+          "availableSizes": [
+              "accesorios"
+          ],
+          "price": 130
+      },
+      {
+          "_id": "product2",
+          "image": "/images/product2.jpg",
+          "title": "Alcohol MF x 500ML 70°",
+          "description": "Listo para desinfectar, máximo protección contra virus y bacterias",
+          "availableSizes": [
+              "accesorios"
 
-            ],
-            "price": 150
-        },
-        {
-            "_id": "product3",
-            "image": "/images/product3.jpg",
-            "title": "BARBIJO KN95 AJUSTE NASAL ",
-            "description": "La mascarilla KN95 es un tipo de mascarilla filtradora de partículas que cumple con el estándar KN95 del Instituto Nacional para la Seguridad y Salud Ocupacional.",
-            "availableSizes": [
-                "accesorios"
-            ],
-            "price": 250
-        },
-        {
-            "_id": "product4",
-            "image": "/images/product4.jpg",
-            "title": "Máscara Protectora PET Cristal Ajuste Regulable ",
-            "description": "ESPECIFICACIONES: Producida en polietileno de alta densidad, sin telas ni elasticos, que permite facil y correcta higiene con jabon, detergente o alcohol etilico, no se empaña ni genera sensacion de encierro Pantalla PET cristal, excelente visibilidada Medidas 30cm de ancho, 24 cm de alto, 0,5mm de espesor",
-            "availableSizes": [
-                "accesorios"
-            ],
-            "price": 280
-        },
-        {
-            "_id": "product5",
-            "image": "/images/product5.jpg",
-            "title": "COMODIN APOSITO INCONT. Moderada X 10",
-            "description": "Con gel súper absorbente. Cubierta interior de tela hipoalergénica que permite mantener la piel siempre seca. Núcleo absorbente y cubierta exterior impermeable que protege las prendas del contacto con los líquidos. Con cinta adhesiva para fijar a la prenda interior.",
-            "availableSizes": [
-                "perfumeria"
-            ],
-            "price": 115
-        },
-        {
-            "_id": "product6",
-            "image": "/images/product6.jpg",
-            "title": "ULTRA COMODIN ADULTOS ANAT. X 16 EG",
-            "description": "Línea de pañales con diseño anatómico elastizado, juvenil y adultos. Más cómodos, mayor cantidad de gel, doble cinta repegable, ultra delgado. Facilita la movilidad del usuario otorgando mayor independencia. Con vías anti desbordes y cubierta interior de tela hipoalergénica con aloe vera de suave textura.",
-            "availableSizes": [
-                "perfumeria"
-            ],
-            "price": 700
-        }
-    ]
+          ],
+          "price": 150
+      },
+      {
+          "_id": "product3",
+          "image": "/images/product3.jpg",
+          "title": "BARBIJO KN95 AJUSTE NASAL ",
+          "description": "La mascarilla KN95 es un tipo de mascarilla filtradora de partículas que cumple con el estándar KN95 del Instituto Nacional para la Seguridad y Salud Ocupacional.",
+          "availableSizes": [
+              "accesorios"
+          ],
+          "price": 250
+      },
+      {
+          "_id": "product4",
+          "image": "/images/product4.jpg",
+          "title": "Máscara Protectora PET ",
+          "description": "ESPECIFICACIONES: Producida en polietileno de alta densidad, sin telas ni elasticos, que permite facil y correcta higiene con jabon, detergente o alcohol etilico, no se empaña ni genera sensacion de encierro Pantalla PET cristal, excelente visibilidada Medidas 30cm de ancho, 24 cm de alto, 0,5mm de espesor",
+          "availableSizes": [
+              "accesorios"
+          ],
+          "price": 280
+      },
+      {
+          "_id": "product5",
+          "image": "/images/product5.jpg",
+          "title": "COMODIN APOSITO INCONT. Moderada X 10",
+          "description": "Con gel súper absorbente. Cubierta interior de tela hipoalergénica que permite mantener la piel siempre seca. Núcleo absorbente y cubierta exterior impermeable que protege las prendas del contacto con los líquidos. Con cinta adhesiva para fijar a la prenda interior.",
+          "availableSizes": [
+              "perfumeria"
+          ],
+          "price": 115
+      },
+      {
+          "_id": "product6",
+          "image": "/images/product6.jpg",
+          "title": "ULTRA COMODIN ADULTOS ANAT. X 16 EG",
+          "description": "Línea de pañales con diseño anatómico elastizado, juvenil y adultos. Más cómodos, mayor cantidad de gel, doble cinta repegable, ultra delgado. Facilita la movilidad del usuario otorgando mayor independencia. Con vías anti desbordes y cubierta interior de tela hipoalergénica con aloe vera de suave textura.",
+          "availableSizes": [
+              "perfumeria"
+          ],
+          "price": 700
+      },
+      {
+        "_id": "product7",
+        "image": "/images/product7.jpg",
+        "title": "Suplemento Dietario Satial Polvo x 50 gr",
+        "description": "Satial food es un complemento de la alimentación elaborado a base de ingredientes naturales que han demostrado en ensayos preclínicos y clínicos su capacidad de disminuir la absorción de hidratos de carbono.",
+        "availableSizes": [
+            "suplementos"
+        ],
+        "price": 2100
+    }
+  ]
 }
