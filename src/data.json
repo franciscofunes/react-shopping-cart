@@ -44,7 +44,7 @@
       {
           "_id": "product5",
           "image": "/images/product5.jpg",
-          "title": "COMODIN APOSITO INCONT. Moderada X 10",
+          "title": "COMODIN APOSITO INC. Moderada X 10",
           "description": "Con gel súper absorbente. Cubierta interior de tela hipoalergénica que permite mantener la piel siempre seca. Núcleo absorbente y cubierta exterior impermeable que protege las prendas del contacto con los líquidos. Con cinta adhesiva para fijar a la prenda interior.",
           "availableSizes": [
               "perfumeria"
@@ -64,7 +64,7 @@
       {
         "_id": "product7",
         "image": "/images/product7.jpg",
-        "title": "Suplemento Dietario Satial Polvo x 50 gr",
+        "title": "Suplemento Satial Polvo x 50 gr",
         "description": "Satial food es un complemento de la alimentación elaborado a base de ingredientes naturales que han demostrado en ensayos preclínicos y clínicos su capacidad de disminuir la absorción de hidratos de carbono.",
         "availableSizes": [
             "suplementos"
