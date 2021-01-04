@@ -39,7 +39,6 @@ header {
 	background-color: #203040;
 	color: #ffffff;
 	display: flex;
-	justify-content: space-between;
 	align-items: center;
 	padding: 0.5rem;
 }
@@ -148,19 +147,15 @@ footer {
 .cart-items img {
 	width: 5rem;
 }
-
 .cart-items li {
 	display: flex;
 }
-
 .cart-items li div {
 	padding: 0.5rem;
 }
-
 .cart-items li div:last-child {
 	flex: 1;
 }
-
 .right {
 	text-align: right;
 }
@@ -177,9 +172,8 @@ footer {
 .total > button {
 	flex: 1;
 }
-/*proximo capitulo*/
-/*1.51.18*/
-.form {
+/* Checkout form */
+form {
 	width: 100%;
 }
 .form-container {
@@ -187,7 +181,6 @@ footer {
 	padding: 0;
 	list-style-type: none;
 }
-
 .form-container li {
 	display: flex;
 	flex-direction: column;
@@ -195,7 +188,7 @@ footer {
 }
 
 input {
-	padding: 1 rem;
+	padding: 1rem;
 	border: 0.1rem #c0c0c0 solid;
 }
 
