@@ -186,11 +186,13 @@ form {
 	flex-direction: column;
 	padding: 1rem;
 }
+
 input {
 	padding: 1rem;
 	border: 0.1rem #c0c0c0 solid;
 }
-/* Product Details */
+
+/*Product Details*/
 .product-details {
 	display: flex;
 	flex-wrap: wrap;
